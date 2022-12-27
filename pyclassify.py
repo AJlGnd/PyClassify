@@ -31,9 +31,7 @@ while True:
             except OSError:
                 pass
                
-            #os.mkdir(worddir)
-            #os.mkdir(pdfdir)
-            #os.mkdir(txtdir)
+           
     # THIS LOOP IS FOR MOVING THE FILES TO ITS CORRESPONDING DIRECTORY
     for files2 in listall:
         split_tup = os.path.splitext(files2)
