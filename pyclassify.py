@@ -29,8 +29,8 @@ while True:
             try:
                 os.mkdir(dynamic_dir)
             except OSError:
-                print("ERROR:Directory already exists!")
-
+                pass
+               
             #os.mkdir(worddir)
             #os.mkdir(pdfdir)
             #os.mkdir(txtdir)
